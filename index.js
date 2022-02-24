@@ -1,11 +1,13 @@
 require('dotenv').config();
 
 const wa = require('@open-wa/wa-automate');
-const commandManager = require('./lib/commandManager.js');
+
+const commandManager = require('./lib/commandManager.js'),
+	  config = require('./lib/config');
 
 //Setting up main message listener
 wa.create({
-	sessionId: process.env.BOT_NAME,
+	sessionId: config('botName'),
 	multiDevice: false,
 	authTimeout: 60,
 	blockCrashLogs: true,
