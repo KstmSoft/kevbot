@@ -1,6 +1,11 @@
 node_modules/
 .env
-*.data.json
 package-lock.json
+lib/db/**.json
+**.log
 
-lib/db/*.json
+# managed by open-wa
+**.data.json
+**.node-persist**
+**_IGNORE_**
+# end managed by open-wa

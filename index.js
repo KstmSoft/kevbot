@@ -8,7 +8,7 @@ const commandManager = require('./lib/commandManager.js'),
 //Setting up main message listener
 wa.create({
 	sessionId: config('botName'),
-	multiDevice: false,
+	multiDevice: true,
 	authTimeout: 60,
 	blockCrashLogs: true,
 	disableSpins: true,
