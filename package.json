@@ -15,8 +15,6 @@
     "dotenv": "^16.0.0",
     "fs": "0.0.1-security",
     "genius-lyrics-api": "^3.0.3",
-    "install": "^0.13.0",
-    "sharp": "^0.30.1",
     "string-tokenizer": "0.0.8",
     "underscore": "^1.11.0",
     "winston": "^3.6.0",
